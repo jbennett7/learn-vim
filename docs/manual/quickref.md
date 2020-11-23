@@ -41,4 +41,35 @@
 
 ## Text object motions
 
+|  Command | Multi Command | Description                                                               |
+|:--------:|:-------------:|---------------------------------------------------------------------------|
+|    `w`   |     `N w`     | `N` words forward                                                         |
+|    `W`   |     `N W`     | `N` blank-separated `WORD`s forward                                       |
+|    `e`   |     `N e`     | forward to the end of the `N`th word                                      |
+|    `E`   |     `N E`     | forward to the end of the `N`th blank-separated `WORD` `N` words backward |
+|    `b`   |     `N b`     | `N` words backward                                                        |
+|    `B`   |     `N B`     | `N` blank-separated `WORD`s backward                                      |
+|   `ge`   |     `N ge`    | backward to the end of the `N`th word                                     |
+|   `gE`   |     `N gE`    | backward to the end of the `N`th blank-separated `WORD`                   |
+|    `)`   |     `N )`     | `N` sentences forward                                                     |
+|    `(`   |     `N (`     | `N` sentences backward                                                    |
+|    `}`   |     `N }`     | `N` paragraphs forward                                                    |
+|    `{`   |     `N {`     | `N` paragraphs backward                                                   |
+|   `]]`   |     `N ]]`    | `N` sections forward, at start of section                                 |
+|   `[[`   |     `N [[`    | `N` sections backward, at start of section                                |
+|   `][`   |     `N ][`    | `N` sections forward, at end of section                                   |
+|   `[]`   |     `N []`    | `N` sections backward, at end of section                                  |
+|   `[(`   |     `N [(`    | `N` times back to unclosed '('                                            |
+|   `[{`   |     `N [{`    | `N` times back to unclosed '{'                                            |
+|   `[m`   |     `N [m`    | `N` times back to start of method (for Java)                              |
+|   `[M`   |     `N [M`    | `N` times back to end of method (for Java)                                |
+|   `])`   |     `N ])`    | `N` times forward to unclosed ')'                                         |
+|   `]}`   |     `N ]}`    | `N` times forward to unclosed '}'                                         |
+|   `]m`   |     `N ]m`    | `N` times forward to start of method (for Java)                           |
+|   `]M`   |     `N ]M`    | `N` times forward to end of method (for Java)                             |
+|   `[#`   |     `N [#`    | `N` times back to unclosed "#if" or "#else"                               |
+|   `]#`   |     `N ]#`    | `N` times forward to unclosed "else" or "#endif"                          |
+|  `[star` |     `N [*`    | `N` times back to start of comment "/*"                                   |
+| `]start` | `N ]*`        | `N` times forward to end of comment "*/"                                  |
+
 
