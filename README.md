@@ -4,7 +4,7 @@
 The purpose of this is to learn vim.
 
 ## User Manual
-1. [Navigation](docks/manual/navigating.md)
+1. [Navigation](docs/manual/navigating.md)
 
 ## Random Things
 1. [Capture ex command output](docs/capture-ex.md)
