@@ -18,4 +18,5 @@
 
 * Search help: Type `:help word`, then hit `<C-D>` to see matching help 
 entries for "word".
+
   Or use `:helpgrep word`.
