@@ -4,6 +4,7 @@
 * Jump to a subject <C-]>
 * Jump back: <C-o>
 * Specific help:
+
 | WHAT                 | PREPEND | EXAMPLE           |
 |----------------------|---------|-------------------|
 | Normal mode command  |         | :help x           |
