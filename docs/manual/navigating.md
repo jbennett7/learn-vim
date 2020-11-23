@@ -15,3 +15,7 @@
 | Vim command argument |   `-`   | `:help -r`          |
 |               Option |   `'`   | `:help 'textwidth'` |
 |   Regular expression |   `/`   | `:help /[`          |
+
+* Search help: Type `:help word`, then hit `<C-D>` to see matching help 
+entries for "word".
+  Or use `:helpgrep word`.
