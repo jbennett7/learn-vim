@@ -1,5 +1,9 @@
 # learn-vim
 
-## Table of Contents
+## Purpose
+The purpose of this is to learn vim.
+
+## User Manual
+## Random Things
 1. [Capture ex command output](docs/capture-ex.md)
 2. [View text file in two columns](docs/two-columns.md)
