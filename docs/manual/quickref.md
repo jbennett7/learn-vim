@@ -8,7 +8,7 @@
 |   `l`   |     `N l`     | right (also: `<Space>`, or `<Right>` key)                                      |
 |   `0`   |      `0`      | to first character in the line (also: `<Home>` key)                            |
 |   `^`   |      `^`      | to first non-blank character in the line                                       |
-|   `$`   |     `N $`     | to the last character in the line (`N-1` lines lower) (also: `<End>` key)      |
+|   `$`   |     `N $`     | to the last character in the line (`N`-1 lines lower) (also: `<End>` key)      |
 |   `g0`  |      `g0`     | to first character in screen line (differes from `0` when lines wrap)          |
 |   `g^`  |      `g^`     | to first non-blank character in screen line (differs from `^` when lines wrap) |
 |   `g$`  |     `N g$`    | to last character in screen line (differs from `$` when lines wrap)            |
@@ -21,6 +21,7 @@
 |   `T`   |  `N T{char}`  | till before the `N`th occurrence of `{char}` to the left                       |
 |   `;`   |     `N ;`     | repeat the last `f`, `F`, `t`, or `T` `N` times                                |
 |   `,`   |     `N ,`     | repeat the last `f`, `F`, `t`, or `T` `N` times in opposite direction          |
+
 
 ## Up-down motions
 
